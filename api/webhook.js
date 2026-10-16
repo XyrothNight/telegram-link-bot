@@ -52,12 +52,12 @@ export default async function handler(req, res) {
             "Xnight CN is a private, invite-only community built for Chinese Web3 users to connect, engage, and grow together on 𝕏.\n\n" +
             "Access is limited. Explore our website to learn more about the community.\n\n" +
             "👇 Tap below to explore Xnight CN\n" +
-            ,"(Send access request if you are eligible)"
+            "(Send access request if you are eligible)",
           reply_markup: {
             inline_keyboard: [
               [
                 {
-                  text: "🌐 Explore Here",
+                  text: "🔗 Explore Xnight CN",
                   url: WEBSITE_URL,
                 },
               ],
